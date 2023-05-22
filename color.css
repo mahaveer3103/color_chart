@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+  .color {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    height: 200px; 
+  }
+  
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
